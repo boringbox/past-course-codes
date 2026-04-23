@@ -1,0 +1,12 @@
+void EnterMove(char board[][26], int n, char colour){
+  char input[4];
+  printf("Enter a move:\n");
+  scanf("%s", &input);
+  if(CheckMove(board, n, input, colour)){
+    printf("Valid move.\n");
+  }
+  else{
+    printf("Invalid move.\n");
+  }
+  printBoard(board, n);
+}
