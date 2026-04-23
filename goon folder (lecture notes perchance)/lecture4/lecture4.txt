@@ -1,0 +1,8 @@
+Arithmetic Operations
+
+In C, precedence rule
+1 ()
+2 * / %
+3 + - 
+Note left to right if 2 operators of same priority 
+  

@@ -1,0 +1,11 @@
+Lecture 1
+IO devices
+Software
+Applications - 
+Operating System - 
+Hardware - CPU, RAM, storage, 
+
+software collection of programs
+    -basically instructions for computer to do something
+
+

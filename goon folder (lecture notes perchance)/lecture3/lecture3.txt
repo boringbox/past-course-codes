@@ -1,0 +1,37 @@
+ bit = 1 or 0
+ nibble = 4 bit
+ byte = 8 bit 
+  
+1 kilobyte = 1024 bit
+1 megabyte = 1024 kilobyte 
+1 gigabyte = 1024 megabyte
+
+Main Memory Organization
+    Information is split into cells, each cell holds 1 byte, there's an address for each cell
+    Known as byte addressable memory 
+    address is written in 0s and 1s
+
+Data types
+intergers whole numbers
+    32 bits 
+    4B - 4 cells to store an int 
+    1 bit sign + 31 bits for the number 
+floating point numbeers
+    float is store 32 bits 
+    double is stored 64 bits 
+        extra bits allow for greater precision in the number (also up to ~15 decimal places )
+    
+characters
+     char initial = "s"
+     can store 1 character, digit, symbols 
+     format specifier ("%c")
+     1 byte 
+     ascii encoding 
+
+boolean 
+    #include <stdbool.h>
+    int main(){
+        bool is snowing = true;
+    }
+    1 byte - because you need to use the entire memory cell
+    

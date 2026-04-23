@@ -1,0 +1,14 @@
+Hardware
+    CPU - executes instructions given by program, runs in binary
+    Machine code - binary 
+    IO devices - connects computer to outside world 
+    Main memory - stores program/data when needed
+
+Development Cycle
+1. Edit code - see lecture1.c
+2. Compile - compiler compiles code into 1s and 0s, executable file 
+        compile-time errors
+3. Run - cpu executes exe file 
+        logical errors
+        runtime errors - programs freezes/crashes so it does not work 
+4. debug - go back to compile after     
